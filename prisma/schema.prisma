@@ -1,6 +1,7 @@
 generator client {
   provider = "prisma-client-js"
   output   = "../src/generated/prisma"
+  previwFeatures = ["prismaSchemaFolder", "strictUnderfinedChecks"]
 }
 
 datasource db {
